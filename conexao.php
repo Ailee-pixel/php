@@ -1,35 +1,21 @@
 <?php
+//Conexao ao banco de dados
 
 $servidor = "localhost";
 $bancodedados = "exemplo_crud";
 $usuario = "root";
 $senha = "";
 
+
 $conexao = mysqli_connect($servidor, $usuario, $senha, $bancodedados);
 
 if(!$conexao){
-    echo "erro conexao";
+    echo "Erro Conexao";
 }
-else{
-    echo "conexao ok";
+Else{
+    echo "Conexao OK";
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
+
