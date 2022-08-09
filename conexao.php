@@ -1,7 +1,7 @@
 <?php
 
 $servidor = "localhost";
-$bancodedados = "exemplo_crud";
+$bancodedados = "bd_imagens";
 $usuario = "root";
 $senha = "";
 
@@ -13,23 +13,5 @@ if(!$conexao){
 else{
     echo "conexao ok";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
